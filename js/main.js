@@ -169,6 +169,6 @@ function showData() {
         var add = employee.contacts[i].address;
         var gender = employee.contacts[i].gender;
         console.log(i);
-        x.insertAdjacentHTML("beforeEnd", "<div class='col-md-3'>" + name + "</div><div class='col-md-3'>" + Email + "</div><div class='col-md-3'>" + add + "</div><div class='col-md-3'>" + gender + "</div>");
+        x.insertAdjacentHTML("beforeEnd", "<div class='col-md-3'>" + name + "</div><div class='col-md-3 overflow-hidden'>" + Email + "</div><div class='col-md-3 w-50'>" + add + "</div><div class='col-md-3'>" + gender + "</div>");
     }
 }
